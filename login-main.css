@@ -1,10 +1,19 @@
+
 h1{
     font-size: 3em;
     text-align:center;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 1em;
+    text-align: left;
+    color:antiquewhite;
+    font-family:Arial sans-serif;
 }
 .nav-bar{
     text-align: end;
-    font-size: large;
+    font-size:medium;
+    color: bisque;
 }
 .header{
     margin: auto;
@@ -18,13 +27,62 @@ h1{
     position: relative;
     
 }
+.input-text{
+    text-align: left;
+    font-size: 1em;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-bottom: 3px;
+    padding: 10px;
+    height: auto;
 
+}
+.input-text{
+    text-align: left;
+    font-size: 1em;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    
+    margin-bottom: 3px;
+    padding: 10px;
+    height: auto;
+}
+.button{
+    border: 2px solid #e4e4e4;
+    font-family: sans-serif;
+    width: 250px;
+    background: bisque;
+    height: 45px;
+    border-radius: 6px;
+    
+    align-items: center;
+    text-align: center;
 
-  
+}
+.checkbox{
+    text-align: right;
+}
+
 .input-field {
     height:auto;
     width: 100%;
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
+    border: none;
+    border-radius: 10px;
+    
+}
+body { 
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-position: relative;
+    color: rgb(12, 11, 6);
+    text-align: center;
+    padding: 5rem;
+    color:bisque;
+    
 }
