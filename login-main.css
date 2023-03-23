@@ -1,26 +1,28 @@
+h1{
+    font-size: 3em;
+    text-align:center;
+}
+.nav-bar{
+    text-align: end;
+    font-size: large;
+}
 .header{
     margin: auto;
 
 }
 .form{
-    max-width:400px;
+    max-width:500px;
     margin:auto;
 }
 .input-icons i {
-    position: absolute;
+    position: relative;
+    
 }
-  
-.input-icons {
-    width: 100%;
-    margin-bottom: 10px;
-}
-  
-.icon {
-    padding: 10px;
-    min-width: 40px;
-}
+
+
   
 .input-field {
+    height:auto;
     width: 100%;
     padding: 10px;
     text-align: center;

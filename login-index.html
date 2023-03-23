@@ -5,25 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="login-main.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
         <nav class="nav-bar">
+            <h1>Welcome</h1>
             <a href="lsa">sign in </a>
             <a href="lsa">sign up</a>
         </nav>
     <form class="form" id="Login">
         <div class="input-icons">
             <h3>Email</h3>
-            <input type="text" name="Email" id="email" placeholder="enter ur email" >
-            <i class='bx bx-envelope' ></i>
+            <input class="input-field" type="text" name="Email" id="email" autofocus placeholder="enter ur email" >
+            <i class='bx bx-envelope'></i>
+            <div class="form-message form-message-error ">Incorrect Username/Password Combination.</div>
             <h3>Password</h3>
-            <input type="text" name="Password" id="password" placeholder="enter ur password"><i class='bx bx-lock-alt' ></i>
-            <br><br><input type="checkbox" id="remmember me" name="remmember me">
-            <label for="remmember me">Remmember me</label><br><br>
-            <input type="submit" value="Login"></input>
+            <input class="input-field" type="text" name="Password" id="password" autofocus placeholder="enter ur password"><i class='bx bx-lock-alt' ></i>
+            <input class="input-field" type="checkbox" id="remember me" name="remember me">Remember me
+            <input class="input-field" type="submit" value="Login"></input>
             <p>Forgot <a href="lsa">Password</a></p>
         </div>
     </form>
@@ -32,6 +33,6 @@
 
 
       
-    <script src="main.js"></script> 
+    <script src="login-main.js"></script> 
 </body>
 </html>
