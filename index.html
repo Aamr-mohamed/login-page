@@ -2,36 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
-    <link rel="stylesheet" href="main.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Weather app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav-bar">
-            <a href="lsa">sign in </a>
-            <a href="lsa">sign up</a>
-        </nav>
-    <form class="form" id="Login">
-        <div class="input-icons">
-            <h3>Email</h3>
-            <input type="text" name="Email" id="email" placeholder="enter ur email" >
-            <i class='bx bx-envelope' ></i>
-            <h3>Password</h3>
-            <input type="text" name="Password" id="password" placeholder="enter ur password"><i class='bx bx-lock-alt' ></i>
-            <br><br><input type="checkbox" id="remmember me" name="remmember me">
-            <label for="remmember me">Remmember me</label><br><br>
-            <input type="submit" value="Login"></input>
-            <p>Forgot <a href="lsa">Password</a></p>
+    <div class="container-fluid">
+        <div class="row offset-sm-1">
+            <section class="header col-md-4 col-sm-10 ">
+                <h1> The Weather Team</h1>
+            </section>
+
+            <section class="main col-md-7 col-sm-10  ">
+
+            <section class="inputs">
+                <input type="text" placeholder="Enter any city..." id="cityinput">
+                <input type="submit" value="Submit" id="add">
+            <button placeholder="submit" id="add"></button>
+            </section>
+
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+
+                </div>
+            </section>
+            </section>
         </div>
-    </form>
+    </div>
 
-    </header>
-
-
-      
-    <script src="main.js"></script> 
+    <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
