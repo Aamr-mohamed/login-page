@@ -57,14 +57,15 @@ h3{
     background: bisque;
     height: 45px;
     border-radius: 6px;
-    
     align-items: center;
     text-align: center;
 
 }
-.checkbox{
-    text-align: right;
-}
+/*.checkbox{
+    position: absolute;
+    left:236px; 
+    bottom: 500px; 
+}*/
 
 .input-field {
     height:auto;
@@ -86,3 +87,4 @@ body {
     color:bisque;
     
 }
+
